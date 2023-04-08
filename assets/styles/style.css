@@ -5,6 +5,16 @@ header {
   justify-content: space-around;
   padding: 0.5rem 0;
 }
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 3rem 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .header__logo {
+    height: 2rem;
+  }
+}
 header nav {
   display: none;
 }
@@ -15,7 +25,7 @@ header nav {
 }
 @media screen and (min-width: 1024px) {
   header nav ul {
-    color: #fff;
+    color: #fbf6ff;
     -moz-column-gap: 3rem;
          column-gap: 3rem;
     display: flex;
@@ -28,7 +38,7 @@ header .header__search--container {
 header .header__search--container #search {
   background-color: #170027;
   border: none;
-  color: white;
+  color: #fbf6ff;
   height: 1.5rem;
   outline: none;
 }
@@ -38,11 +48,21 @@ header .header__search--container #search::-moz-placeholder {
 header .header__search--container #search::placeholder {
   text-align: center;
 }
+@media screen and (min-width: 1024px) {
+  header .header__search--container #search {
+    height: 2rem;
+  }
+}
 header .header__search--container .search__img {
   height: 1rem;
   left: 0.5rem;
   position: absolute;
   top: 0.3rem;
+}
+@media screen and (min-width: 1024px) {
+  header .header__search--container .search__img {
+    display: none;
+  }
 }
 
 * {

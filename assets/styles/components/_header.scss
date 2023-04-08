@@ -5,6 +5,16 @@ header {
     justify-content: space-around;
     padding: .5rem 0;
 
+    @media screen and (min-width: $laptop) {
+        padding: 3rem 0;
+    }
+
+    .header__logo {
+        @media screen and (min-width: $laptop) {
+            height: 2rem;
+        }
+    }
+
     nav {
         display: none;
 
@@ -14,7 +24,7 @@ header {
 
         ul {
             @media screen and (min-width: $laptop) {
-                color: $color-white;
+                color: $color-light-purple;
                 column-gap: 3rem;
                 display: flex;
                 font-family: $roboto;
@@ -28,12 +38,16 @@ header {
         #search {
             background-color: $color-dark-bg;
             border: none;
-            color: white;
+            color: $color-light-purple;
             height: 1.5rem;
             outline: none;
 
             &::placeholder {
                 text-align: center;
+            }
+
+            @media screen and (min-width: $laptop) {
+                height: 2rem;
             }
         }
 
@@ -42,6 +56,10 @@ header {
             left: .5rem;
             position: absolute;
             top: .3rem;
+
+            @media screen and (min-width: $laptop) {
+                display: none;
+            }
         }
     }
 }
