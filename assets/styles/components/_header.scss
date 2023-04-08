@@ -1,21 +1,47 @@
 header {
+    align-items: center;
     background-color: $color-purple-bg;
     display: flex;
-    align-items: center;
     justify-content: space-around;
     padding: .5rem 0;
 
     nav {
         display: none;
+
+        @media screen and (min-width: $laptop) {
+            display: block;
+        }
+
+        ul {
+            @media screen and (min-width: $laptop) {
+                color: $color-white;
+                column-gap: 3rem;
+                display: flex;
+                font-family: $roboto;
+            }
+        }
     }
 
     .header__search--container {
+        position: relative;
+
         #search {
+            background-color: $color-dark-bg;
+            border: none;
+            color: white;
             height: 1.5rem;
+            outline: none;
 
             &::placeholder {
                 text-align: center;
             }
+        }
+
+        .search__img {
+            height: 1rem;
+            left: .5rem;
+            position: absolute;
+            top: .3rem;
         }
     }
 }
