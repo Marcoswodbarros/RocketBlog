@@ -1,3 +1,22 @@
+header {
+  align-items: center;
+  background-color: #290742;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.3rem;
+}
+header nav {
+  display: none;
+}
+header .header__search--container {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+header .header__search--container #search {
+  width: 50%;
+}
+
 * {
   box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */

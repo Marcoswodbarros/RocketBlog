@@ -1,0 +1,21 @@
+header {
+    align-items: center;
+    background-color: $color-purple-bg;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem .3rem;
+
+    nav {
+        display: none;
+    }
+
+    .header__search--container {
+        display: flex;
+        align-items: center;
+        width: 40%;
+
+        #search {
+            width: 50%;
+        }
+    }
+}
