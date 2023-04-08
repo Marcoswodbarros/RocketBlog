@@ -1,16 +1,15 @@
 header {
-  align-items: center;
   background-color: #290742;
   display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0.3rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 0;
 }
 header nav {
   display: none;
 }
-header .header__search--container {
-  display: flex;
-  align-items: center;
+header .header__search--container #search {
+  height: 1.5rem;
 }
 header .header__search--container #search::-moz-placeholder {
   text-align: center;

@@ -1,19 +1,17 @@
 header {
-    align-items: center;
     background-color: $color-purple-bg;
     display: flex;
-    justify-content: space-between;
-    padding: .5rem .3rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: .5rem 0;
 
     nav {
         display: none;
     }
 
     .header__search--container {
-        display: flex;
-        align-items: center;
-
         #search {
+            height: 1.5rem;
 
             &::placeholder {
                 text-align: center;
