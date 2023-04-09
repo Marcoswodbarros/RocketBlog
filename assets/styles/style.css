@@ -141,6 +141,40 @@ header .header__search--container button {
   }
 }
 
+article {
+  background-color: #290742;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+article .article__intro--img {
+  width: 100%;
+}
+article h1 {
+  color: #9e6dc2;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+article p {
+  color: #fbf6ff;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2rem;
+  padding: 0 1rem;
+  text-align: justify;
+}
+article .vejaMais__container {
+  align-items: center;
+  color: #9e6dc2;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+article {
+    background-color: $color-purple-bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    
+    .article__intro--img {
+        width: 100%;
+    }
+
+    h1 {
+        color: $color-button;
+        font-family: $poppins;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    p {
+        color: $color-light-purple;
+        font-family: $roboto;
+        line-height: 1.2rem;
+        padding: 0 1rem;
+        text-align: justify;
+    }
+
+    .vejaMais__container {
+        align-items: center;
+        color: $color-button;
+        column-gap: .5rem;
+        display: flex;
+        font-family: $roboto;
+    }
+}
