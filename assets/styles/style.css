@@ -15,6 +15,11 @@ header {
     height: 2rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  header .header__logo {
+    height: 2.5rem;
+  }
+}
 header nav {
   display: none;
 }
@@ -30,6 +35,13 @@ header nav {
          column-gap: 2rem;
     display: flex;
     font-family: "Roboto", sans-serif;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header nav ul {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+    font-size: 1.3rem;
   }
 }
 header .header__search--container {
@@ -69,6 +81,11 @@ header .header__search--container #search::placeholder {
     text-align: start;
   }
 }
+@media screen and (min-width: 1440px) {
+  header .header__search--container #search {
+    height: 2.5rem;
+  }
+}
 header .header__search--container .search__img {
   height: 1rem;
   left: 0.5rem;
@@ -91,6 +108,15 @@ header .header__search--container .search__img {
   }
   header .header__search--container button .button__img {
     height: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header .header__search--container button {
+    height: 2.5rem;
+    width: 3.5rem;
+  }
+  header .header__search--container button .button__img {
+    height: 1.3rem;
   }
 }
 

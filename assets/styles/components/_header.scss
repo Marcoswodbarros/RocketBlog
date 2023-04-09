@@ -13,6 +13,10 @@ header {
         @media screen and (min-width: $laptop) {
             height: 2rem;
         }
+
+        @media screen and (min-width: $laptop-L) {
+            height: 2.5rem;
+        }
     }
 
     nav {
@@ -28,6 +32,11 @@ header {
                 column-gap: 2rem;
                 display: flex;
                 font-family: $roboto;
+            }
+
+            @media screen and (min-width: $laptop-L) {
+                column-gap: 2.5rem;
+                font-size: 1.3rem;
             }
         }
     }
@@ -61,6 +70,10 @@ header {
                     text-align: start;
                 }
             }
+
+            @media screen and (min-width: $laptop-L) {
+                height: 2.5rem;
+            }
         }
 
         .search__img {
@@ -85,6 +98,16 @@ header {
 
                 .button__img {
                     height: 1rem;
+                }
+            }
+
+            @media screen and (min-width: $laptop-L) {
+                height: 2.5rem;
+                width: 3.5rem;
+
+                .button__img {
+                    height: 1.3rem;
+
                 }
             }
         }
