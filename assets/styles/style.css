@@ -1,9 +1,14 @@
 header {
-  align-items: center;
   background-color: #290742;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 0.5rem 0;
+}
+@media screen and (min-width: 768px) {
+  header {
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 @media screen and (min-width: 1024px) {
   header {
@@ -54,17 +59,23 @@ header .header__search--container {
   }
 }
 header .header__search--container #search {
-  background-color: #170027;
-  border: none;
-  color: #fbf6ff;
-  height: 1.5rem;
-  outline: none;
+  display: none;
 }
-header .header__search--container #search::-moz-placeholder {
-  text-align: center;
-}
-header .header__search--container #search::placeholder {
-  text-align: center;
+@media screen and (min-width: 768px) {
+  header .header__search--container #search {
+    background-color: #170027;
+    border: none;
+    color: #fbf6ff;
+    display: block;
+    height: 1.5rem;
+    outline: none;
+  }
+  header .header__search--container #search::-moz-placeholder {
+    text-align: center;
+  }
+  header .header__search--container #search::placeholder {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 1024px) {
   header .header__search--container #search {
@@ -87,15 +98,24 @@ header .header__search--container #search::placeholder {
   }
 }
 header .header__search--container .search__img {
-  height: 1rem;
-  left: 0.5rem;
-  position: absolute;
-  top: 0.3rem;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  header .header__search--container .search__img {
+    display: block;
+    height: 1rem;
+    left: 0.5rem;
+    position: absolute;
+    top: 0.3rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   header .header__search--container .search__img {
     display: none;
   }
+}
+header .header__search--container button {
+  display: none;
 }
 @media screen and (min-width: 1024px) {
   header .header__search--container button {
@@ -103,6 +123,7 @@ header .header__search--container .search__img {
     border: none;
     border-bottom-right-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
+    display: block;
     height: 2rem;
     width: 3rem;
   }
