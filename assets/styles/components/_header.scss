@@ -6,7 +6,7 @@ header {
     padding: .5rem 0;
 
     @media screen and (min-width: $laptop) {
-        padding: 3rem 0;
+        padding: 3rem 1rem;
     }
 
     .header__logo {
@@ -25,7 +25,7 @@ header {
         ul {
             @media screen and (min-width: $laptop) {
                 color: $color-light-purple;
-                column-gap: 3rem;
+                column-gap: 2rem;
                 display: flex;
                 font-family: $roboto;
             }
@@ -34,6 +34,11 @@ header {
 
     .header__search--container {
         position: relative;
+
+        @media screen and (min-width: $laptop) {
+            display: flex;
+            align-items: center;
+        }
 
         #search {
             background-color: $color-dark-bg;
@@ -47,7 +52,14 @@ header {
             }
 
             @media screen and (min-width: $laptop) {
+                border-bottom-left-radius: .3rem;
+                border-top-left-radius: .3rem;
                 height: 2rem;
+
+                &::placeholder {
+                    padding-left: 1.5rem;
+                    text-align: start;
+                }
             }
         }
 
@@ -59,6 +71,21 @@ header {
 
             @media screen and (min-width: $laptop) {
                 display: none;
+            }
+        }
+
+        button {
+            @media screen and (min-width: $laptop) {
+                background-color: $color-button;
+                border: none;
+                border-bottom-right-radius: .3rem;
+                border-top-right-radius: .3rem;
+                height: 2rem;
+                width: 3rem;
+
+                .button__img {
+                    height: 1rem;
+                }
             }
         }
     }
