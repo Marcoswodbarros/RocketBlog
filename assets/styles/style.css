@@ -339,6 +339,7 @@ header .header__search--container button {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
+  margin: 0.75rem 0;
   row-gap: 0.5rem;
   width: 80%;
 }
