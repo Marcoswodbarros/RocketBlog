@@ -5,6 +5,10 @@
     margin-top: 2rem;
     row-gap: 1.5rem;
 
+    @media screen and (min-width: $tablet) {
+        row-gap: 2.5rem;
+    }
+
     .two__first--article {
         align-items: center;
         display: flex;
@@ -13,6 +17,10 @@
 
         .first__article--img {
             width: 80%;
+
+            @media screen and (min-width: $tablet) {
+                width: 60%;
+            }
         }
 
         .first__article--text {
@@ -21,6 +29,10 @@
             flex-direction: column;
             row-gap: .5rem;
             width: 80%;
+
+            @media screen and (min-width: $tablet) {
+                width: 60%;
+            }
 
             span {
                 align-self: flex-start;
@@ -52,6 +64,10 @@
         row-gap: .5rem;
         width: 80%;
 
+        @media screen and (min-width: $tablet) {
+            width: 60%;
+        }
+
         span {
             align-self: flex-start;
             font-size: .75rem;
@@ -78,6 +94,10 @@
         font-family: $roboto;
         row-gap: .5rem;
         width: 80%;
+
+        @media screen and (min-width: $tablet) {
+            width: 60%;
+        }
 
         span {
             align-self: flex-start;

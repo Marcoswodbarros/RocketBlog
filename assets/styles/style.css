@@ -302,6 +302,11 @@ header .header__search--container button {
   margin-top: 2rem;
   row-gap: 1.5rem;
 }
+@media screen and (min-width: 768px) {
+  #main__section--two {
+    row-gap: 2.5rem;
+  }
+}
 #main__section--two .two__first--article {
   align-items: center;
   display: flex;
@@ -311,12 +316,22 @@ header .header__search--container button {
 #main__section--two .two__first--article .first__article--img {
   width: 80%;
 }
+@media screen and (min-width: 768px) {
+  #main__section--two .two__first--article .first__article--img {
+    width: 60%;
+  }
+}
 #main__section--two .two__first--article .first__article--text {
   align-items: center;
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
   width: 80%;
+}
+@media screen and (min-width: 768px) {
+  #main__section--two .two__first--article .first__article--text {
+    width: 60%;
+  }
 }
 #main__section--two .two__first--article .first__article--text span {
   align-self: flex-start;
@@ -343,6 +358,11 @@ header .header__search--container button {
   row-gap: 0.5rem;
   width: 80%;
 }
+@media screen and (min-width: 768px) {
+  #main__section--two .two__second--article {
+    width: 60%;
+  }
+}
 #main__section--two .two__second--article span {
   align-self: flex-start;
   font-size: 0.75rem;
@@ -365,6 +385,11 @@ header .header__search--container button {
   font-family: "Roboto", sans-serif;
   row-gap: 0.5rem;
   width: 80%;
+}
+@media screen and (min-width: 768px) {
+  #main__section--two .two__third--article {
+    width: 60%;
+  }
 }
 #main__section--two .two__third--article span {
   align-self: flex-start;
