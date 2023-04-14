@@ -1,6 +1,7 @@
 #main__section--intro {
     align-items: center;
     background-color: $color-purple-bg;
+    border-bottom: .2rem solid $color-green;
     display: flex;
     flex-direction: column;
 
@@ -9,23 +10,26 @@
     }
 
     @media screen and (min-width: $laptop) {
+        border-bottom: .35rem solid $color-green;
         flex-direction: row-reverse;
         justify-content: flex-start;
         padding-bottom: 2rem;
-        border-bottom: .35rem solid $color-green;
     }
 
     .intro__img--container{
         align-items: center;
         display: flex;
         justify-content: center;
-        width: 50vw;
+        
+        @media screen and (min-width: $laptop) {
+            width: 50vw;
+        }
         
         .section__intro--img {
             width: 100%;
             
             @media screen and (min-width: $tablet) {
-                width: 60%;
+                width: 28rem;
             }
     
             @media screen and (min-width: $laptop) {
@@ -46,7 +50,8 @@
         display: flex;
         flex-direction: column;
         gap: .5rem;
-        margin-top: .5rem;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
 
         @media screen and (min-width: $laptop) {
             margin: 0;

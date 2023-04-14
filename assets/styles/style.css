@@ -16,9 +16,14 @@ header {
     padding: 3rem 1rem;
   }
 }
+header .header__logo {
+  height: 1.8rem;
+  margin: 0.5rem 0;
+}
 @media screen and (min-width: 1024px) {
   header .header__logo {
     height: 2rem;
+    margin: 0;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -145,6 +150,7 @@ header .header__search--container button {
 #main__section--intro {
   align-items: center;
   background-color: #290742;
+  border-bottom: 0.2rem solid #4fff4b;
   display: flex;
   flex-direction: column;
 }
@@ -155,24 +161,28 @@ header .header__search--container button {
 }
 @media screen and (min-width: 1024px) {
   #main__section--intro {
+    border-bottom: 0.35rem solid #4fff4b;
     flex-direction: row-reverse;
     justify-content: flex-start;
     padding-bottom: 2rem;
-    border-bottom: 0.35rem solid #4fff4b;
   }
 }
 #main__section--intro .intro__img--container {
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 50vw;
+}
+@media screen and (min-width: 1024px) {
+  #main__section--intro .intro__img--container {
+    width: 50vw;
+  }
 }
 #main__section--intro .intro__img--container .section__intro--img {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
   #main__section--intro .intro__img--container .section__intro--img {
-    width: 60%;
+    width: 28rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -193,7 +203,8 @@ header .header__search--container button {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 @media screen and (min-width: 1024px) {
   #main__section--intro .intro__text--container {
