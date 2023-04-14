@@ -1,0 +1,41 @@
+#main__section--two {
+    margin-top: 2rem;
+
+    .two__first--article {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-family: $roboto;
+
+        .first__article--img {
+            width: 80%;
+        }
+
+        .first__article--text {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            row-gap: .5rem;
+            width: 80%;
+
+            span {
+                align-self: flex-start;
+                font-size: .75rem;
+                margin: .5rem 0;
+            }
+
+            h2 {
+                color: $color-purple-bg;
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            p {
+                font-size: .75rem;
+                line-height: 1rem;
+                text-align: center;
+            }
+        }
+    }
+}

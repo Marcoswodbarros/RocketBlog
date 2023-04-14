@@ -295,6 +295,42 @@ header .header__search--container button {
   height: 1rem;
 }
 
+#main__section--two {
+  margin-top: 2rem;
+}
+#main__section--two .two__first--article {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+#main__section--two .two__first--article .first__article--img {
+  width: 80%;
+}
+#main__section--two .two__first--article .first__article--text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  width: 80%;
+}
+#main__section--two .two__first--article .first__article--text span {
+  align-self: flex-start;
+  font-size: 0.75rem;
+  margin: 0.5rem 0;
+}
+#main__section--two .two__first--article .first__article--text h2 {
+  color: #290742;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+#main__section--two .two__first--article .first__article--text p {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
