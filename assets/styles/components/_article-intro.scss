@@ -12,6 +12,7 @@
         flex-direction: row-reverse;
         justify-content: flex-start;
         padding-bottom: 2rem;
+        border-bottom: .35rem solid $color-green;
     }
 
     .intro__img--container{
@@ -31,6 +32,11 @@
                 height: 16rem;
                 margin-right: 5vw;
                 width: 27rem;
+            }
+
+            @media screen and (min-width: $laptop-L) {
+                height: 22rem;
+                width: 35rem;
             }
         }
     }
@@ -68,6 +74,12 @@
                 text-align: start;
                 width: 21rem;
             }
+
+            @media screen and (min-width: $laptop-L) {
+                font-size: 2rem;
+                line-height: 3rem;
+                width: 30rem;
+            }
         }
 
         p {
@@ -87,6 +99,12 @@
                 text-align: start;
                 width: 21rem;
             }
+
+            @media screen and (min-width: $laptop-L) {
+                font-size: 1.2rem;
+                line-height: 1.8rem;
+                width: 30rem;
+            }
         }
 
         .vejaMais__container {
@@ -98,7 +116,13 @@
             font-size: .8rem;
 
             @media screen and (min-width: $laptop) {
+                font-weight: 700;
                 width: 21rem;
+            }
+
+            @media screen and (min-width: $laptop-L) {
+                font-size: 1.2rem;
+                width: 30rem;
             }
         }
 
