@@ -1,59 +1,71 @@
-article {
+#main__section--intro {
     background-color: $color-purple-bg;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .5rem;
-    
+
     @media screen and (min-width: $tablet) {
-        row-gap: 1rem;
+        row-gap: .75rem;
     }
-    
-    .article__intro--img {
+
+    @media screen and (min-width: $laptop) {
+        flex-direction: row-reverse;
+    }
+
+    .section__intro--img {
         width: 100%;
-
+        
         @media screen and (min-width: $tablet) {
             width: 60%;
         }
     }
 
-    h1 {
-        color: $color-button;
-        font-family: $poppins;
-        font-size: 1.3rem;
-        line-height: 1.5rem;
-        padding: 0 1rem;
-        text-align: center;
 
-        @media screen and (min-width: $tablet) {
-            padding: 0;
-            width: 55%;
-        }
-    }
-
-    p {
-        color: $color-light-purple;
-        font-family: $roboto;
-        font-size: .8rem;
-        line-height: 1.2rem;
-        padding: 0 1rem;
-        text-align: justify;
-
-        @media screen and (min-width: $tablet) {
-            width: 60%;
-        }
-    }
-
-    .vejaMais__container {
+    .intro__text--container {
         align-items: center;
-        color: $color-button;
-        column-gap: .5rem;
         display: flex;
-        font-family: $roboto;
-        font-size: .8rem;
-    }
+        flex-direction: column;
+        gap: .5rem;
+        margin-top: .5rem;
 
-    .vejaMais__arrow {
-        height: 1rem;
+        h1 {
+            color: $color-button;
+            font-family: $poppins;
+            font-size: 1.3rem;
+            line-height: 1.5rem;
+            padding: 0 1rem;
+            text-align: center;
+
+            @media screen and (min-width: $tablet) {
+                padding: 0;
+                width: 55%;
+            }
+        }
+
+        p {
+            color: $color-light-purple;
+            font-family: $roboto;
+            font-size: .8rem;
+            line-height: 1.2rem;
+            padding: 0 1rem;
+            text-align: justify;
+
+            @media screen and (min-width: $tablet) {
+                width: 60%;
+            }
+        }
+
+        .vejaMais__container {
+            align-items: center;
+            color: $color-button;
+            column-gap: .5rem;
+            display: flex;
+            font-family: $roboto;
+            font-size: .8rem;
+        }
+
+        .vejaMais__arrow {
+            height: 1rem;
+        }
     }
 }

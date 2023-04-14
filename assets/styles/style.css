@@ -142,27 +142,38 @@ header .header__search--container button {
   }
 }
 
-article {
+#main__section--intro {
   background-color: #290742;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
 }
 @media screen and (min-width: 768px) {
-  article {
-    row-gap: 1rem;
+  #main__section--intro {
+    row-gap: 0.75rem;
   }
 }
-article .article__intro--img {
+@media screen and (min-width: 1024px) {
+  #main__section--intro {
+    flex-direction: row-reverse;
+  }
+}
+#main__section--intro .section__intro--img {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  article .article__intro--img {
+  #main__section--intro .section__intro--img {
     width: 60%;
   }
 }
-article h1 {
+#main__section--intro .intro__text--container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+#main__section--intro .intro__text--container h1 {
   color: #9e6dc2;
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
@@ -171,12 +182,12 @@ article h1 {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  article h1 {
+  #main__section--intro .intro__text--container h1 {
     padding: 0;
     width: 55%;
   }
 }
-article p {
+#main__section--intro .intro__text--container p {
   color: #fbf6ff;
   font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
@@ -185,11 +196,11 @@ article p {
   text-align: justify;
 }
 @media screen and (min-width: 768px) {
-  article p {
+  #main__section--intro .intro__text--container p {
     width: 60%;
   }
 }
-article .vejaMais__container {
+#main__section--intro .intro__text--container .vejaMais__container {
   align-items: center;
   color: #9e6dc2;
   -moz-column-gap: 0.5rem;
@@ -198,7 +209,7 @@ article .vejaMais__container {
   font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
 }
-article .vejaMais__arrow {
+#main__section--intro .intro__text--container .vejaMais__arrow {
   height: 1rem;
 }
 
