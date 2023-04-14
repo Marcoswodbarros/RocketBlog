@@ -143,10 +143,10 @@ header .header__search--container button {
 }
 
 #main__section--intro {
+  align-items: center;
   background-color: #290742;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 @media screen and (min-width: 768px) {
   #main__section--intro {
@@ -156,13 +156,14 @@ header .header__search--container button {
 @media screen and (min-width: 1024px) {
   #main__section--intro {
     flex-direction: row-reverse;
+    justify-content: flex-start;
     padding-bottom: 2rem;
   }
 }
 #main__section--intro .intro__img--container {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 50vw;
 }
 #main__section--intro .intro__img--container .section__intro--img {
@@ -175,8 +176,9 @@ header .header__search--container button {
 }
 @media screen and (min-width: 1024px) {
   #main__section--intro .intro__img--container .section__intro--img {
-    width: 85%;
-    margin-right: 4rem;
+    height: 16rem;
+    margin-right: 5vw;
+    width: 27rem;
   }
 }
 #main__section--intro .intro__text--container {
@@ -188,6 +190,9 @@ header .header__search--container button {
 }
 @media screen and (min-width: 1024px) {
   #main__section--intro .intro__text--container {
+    margin: 0;
+    padding-bottom: 2rem;
+    row-gap: 1rem;
     width: 50vw;
   }
 }
@@ -205,6 +210,14 @@ header .header__search--container button {
     width: 55%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #main__section--intro .intro__text--container h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: start;
+    width: 21rem;
+  }
+}
 #main__section--intro .intro__text--container p {
   color: #fbf6ff;
   font-family: "Roboto", sans-serif;
@@ -218,6 +231,13 @@ header .header__search--container button {
     width: 60%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #main__section--intro .intro__text--container p {
+    padding: 0;
+    text-align: start;
+    width: 21rem;
+  }
+}
 #main__section--intro .intro__text--container .vejaMais__container {
   align-items: center;
   color: #9e6dc2;
@@ -226,6 +246,11 @@ header .header__search--container button {
   display: flex;
   font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
+}
+@media screen and (min-width: 1024px) {
+  #main__section--intro .intro__text--container .vejaMais__container {
+    width: 21rem;
+  }
 }
 #main__section--intro .intro__text--container .vejaMais__arrow {
   height: 1rem;
