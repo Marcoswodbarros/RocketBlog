@@ -10,13 +10,27 @@
 
     @media screen and (min-width: $laptop) {
         flex-direction: row-reverse;
+        padding-bottom: 2rem;
     }
 
-    .section__intro--img {
-        width: 100%;
+
+    .intro__img--container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
         
-        @media screen and (min-width: $tablet) {
-            width: 60%;
+        .section__intro--img {
+            width: 100%;
+            
+            @media screen and (min-width: $tablet) {
+                width: 60%;
+            }
+    
+            @media screen and (min-width: $laptop) {
+                width: 85%;
+                margin-right: 4rem;
+            }
         }
     }
 
@@ -27,6 +41,10 @@
         flex-direction: column;
         gap: .5rem;
         margin-top: .5rem;
+
+        @media screen and (min-width: $laptop) {
+            width: 50vw;
+        }
 
         h1 {
             color: $color-button;

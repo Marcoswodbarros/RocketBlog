@@ -156,14 +156,27 @@ header .header__search--container button {
 @media screen and (min-width: 1024px) {
   #main__section--intro {
     flex-direction: row-reverse;
+    padding-bottom: 2rem;
   }
 }
-#main__section--intro .section__intro--img {
+#main__section--intro .intro__img--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+#main__section--intro .intro__img--container .section__intro--img {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  #main__section--intro .section__intro--img {
+  #main__section--intro .intro__img--container .section__intro--img {
     width: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main__section--intro .intro__img--container .section__intro--img {
+    width: 85%;
+    margin-right: 4rem;
   }
 }
 #main__section--intro .intro__text--container {
@@ -172,6 +185,11 @@ header .header__search--container button {
   flex-direction: column;
   gap: 0.5rem;
   margin-top: 0.5rem;
+}
+@media screen and (min-width: 1024px) {
+  #main__section--intro .intro__text--container {
+    width: 50vw;
+  }
 }
 #main__section--intro .intro__text--container h1 {
   color: #9e6dc2;
