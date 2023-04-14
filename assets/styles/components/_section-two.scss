@@ -9,17 +9,30 @@
         row-gap: 2.5rem;
     }
 
+    @media screen and (min-width: $laptop) {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
     .two__first--article {
         align-items: center;
         display: flex;
         flex-direction: column;
         font-family: $roboto;
 
+        @media screen and (min-width: $laptop) {
+            width: 60vw;
+        }
+
         .first__article--img {
             width: 80%;
 
             @media screen and (min-width: $tablet) {
                 width: 60%;
+            }
+
+            @media screen and (min-width: $laptop) {
+                width: 25rem;
             }
         }
 
@@ -55,66 +68,98 @@
         }
     }
 
-    .two__second--article {
+    .st__container {
         align-items: center;
         display: flex;
         flex-direction: column;
-        font-family: $roboto;
-        margin: .75rem 0;
-        row-gap: .5rem;
-        width: 80%;
+        row-gap: 1.5rem;
 
-        @media screen and (min-width: $tablet) {
-            width: 60%;
+        .two__second--article {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            font-family: $roboto;
+            margin: .75rem 0;
+            row-gap: .5rem;
+            width: 80%;
+
+            @media screen and (min-width: $tablet) {
+                width: 60%;
+            }
+
+            span {
+                align-self: flex-start;
+                font-size: .75rem;
+            }
+
+            h2 {
+                color: $color-purple-bg;
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-align: center;
+
+                @media screen and (min-width: $laptop) {
+                    text-align: start;
+                    width: 20rem;
+                }
+            }
+
+            p {
+                font-size: .75rem;
+                line-height: 1rem;
+                text-align: center;
+
+                @media screen and (min-width: $laptop) {
+                    text-align: start;
+                    width: 20rem;
+                }
+            }
         }
 
-        span {
-            align-self: flex-start;
-            font-size: .75rem;
-        }
+        .two__third--article {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            font-family: $roboto;
+            row-gap: .5rem;
+            width: 80%;
 
-        h2 {
-            color: $color-purple-bg;
-            font-size: 1.2rem;
-            font-weight: 700;
-            text-align: center;
-        }
+            @media screen and (min-width: $tablet) {
+                width: 60%;
+            }
 
-        p {
-            font-size: .75rem;
-            line-height: 1rem;
-            text-align: center;
-        }
-    }
+            span {
+                align-self: flex-start;
+                font-size: .75rem;
 
-    .two__third--article {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        font-family: $roboto;
-        row-gap: .5rem;
-        width: 80%;
+                @media screen and (min-width: $laptop) {
+                    display: inline-block;
+                    width: 20rem;
+                }
+            }
 
-        @media screen and (min-width: $tablet) {
-            width: 60%;
-        }
+            h2 {
+                color: $color-purple-bg;
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-align: center;
 
-        span {
-            align-self: flex-start;
-            font-size: .75rem;
-        }
+                @media screen and (min-width: $laptop) {
+                    text-align: start;
+                    width: 20rem;
+                }
+            }
 
-        h2 {
-            color: $color-purple-bg;
-            font-size: 1.2rem;
-            font-weight: 700;
-            text-align: center;
-        }
+            p {
+                font-size: .75rem;
+                line-height: 1rem;
+                text-align: center;
 
-        p {
-            font-size: .75rem;
-            line-height: 1rem;
-            text-align: center;
+                @media screen and (min-width: $laptop) {
+                    text-align: start;
+                    width: 20rem;
+                }
+            }
         }
     }
 }

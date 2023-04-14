@@ -307,11 +307,22 @@ header .header__search--container button {
     row-gap: 2.5rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  #main__section--two {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}
 #main__section--two .two__first--article {
   align-items: center;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
+}
+@media screen and (min-width: 1024px) {
+  #main__section--two .two__first--article {
+    width: 60vw;
+  }
 }
 #main__section--two .two__first--article .first__article--img {
   width: 80%;
@@ -319,6 +330,11 @@ header .header__search--container button {
 @media screen and (min-width: 768px) {
   #main__section--two .two__first--article .first__article--img {
     width: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main__section--two .two__first--article .first__article--img {
+    width: 25rem;
   }
 }
 #main__section--two .two__first--article .first__article--text {
@@ -349,7 +365,13 @@ header .header__search--container button {
   line-height: 1rem;
   text-align: center;
 }
-#main__section--two .two__second--article {
+#main__section--two .st__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+#main__section--two .st__container .two__second--article {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -359,26 +381,38 @@ header .header__search--container button {
   width: 80%;
 }
 @media screen and (min-width: 768px) {
-  #main__section--two .two__second--article {
+  #main__section--two .st__container .two__second--article {
     width: 60%;
   }
 }
-#main__section--two .two__second--article span {
+#main__section--two .st__container .two__second--article span {
   align-self: flex-start;
   font-size: 0.75rem;
 }
-#main__section--two .two__second--article h2 {
+#main__section--two .st__container .two__second--article h2 {
   color: #290742;
   font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
 }
-#main__section--two .two__second--article p {
+@media screen and (min-width: 1024px) {
+  #main__section--two .st__container .two__second--article h2 {
+    text-align: start;
+    width: 20rem;
+  }
+}
+#main__section--two .st__container .two__second--article p {
   font-size: 0.75rem;
   line-height: 1rem;
   text-align: center;
 }
-#main__section--two .two__third--article {
+@media screen and (min-width: 1024px) {
+  #main__section--two .st__container .two__second--article p {
+    text-align: start;
+    width: 20rem;
+  }
+}
+#main__section--two .st__container .two__third--article {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -387,24 +421,42 @@ header .header__search--container button {
   width: 80%;
 }
 @media screen and (min-width: 768px) {
-  #main__section--two .two__third--article {
+  #main__section--two .st__container .two__third--article {
     width: 60%;
   }
 }
-#main__section--two .two__third--article span {
+#main__section--two .st__container .two__third--article span {
   align-self: flex-start;
   font-size: 0.75rem;
 }
-#main__section--two .two__third--article h2 {
+@media screen and (min-width: 1024px) {
+  #main__section--two .st__container .two__third--article span {
+    display: inline-block;
+    width: 20rem;
+  }
+}
+#main__section--two .st__container .two__third--article h2 {
   color: #290742;
   font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
 }
-#main__section--two .two__third--article p {
+@media screen and (min-width: 1024px) {
+  #main__section--two .st__container .two__third--article h2 {
+    text-align: start;
+    width: 20rem;
+  }
+}
+#main__section--two .st__container .two__third--article p {
   font-size: 0.75rem;
   line-height: 1rem;
   text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  #main__section--two .st__container .two__third--article p {
+    text-align: start;
+    width: 20rem;
+  }
 }
 
 * {
