@@ -51,6 +51,11 @@
                 width: 60%;
             }
 
+            @media screen and (min-width: $laptop) {
+                align-items: flex-start;
+                width: 25rem;
+            }
+
             span {
                 align-self: flex-start;
                 font-size: .75rem;
@@ -76,6 +81,10 @@
                 font-size: .75rem;
                 line-height: 1rem;
                 text-align: center;
+
+                @media screen and (min-width: $laptop) {
+                    text-align: start;
+                }
             }
         }
     }
