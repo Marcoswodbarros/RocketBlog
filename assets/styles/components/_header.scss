@@ -87,6 +87,10 @@ header {
 
             @media screen and (min-width: $laptop-L) {
                 height: 2.5rem;
+
+                &::placeholder {
+                    font-size: 1rem;
+                }
             }
         }
 

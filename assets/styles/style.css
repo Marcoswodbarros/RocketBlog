@@ -102,6 +102,12 @@ header .header__search--container #search {
   header .header__search--container #search {
     height: 2.5rem;
   }
+  header .header__search--container #search::-moz-placeholder {
+    font-size: 1rem;
+  }
+  header .header__search--container #search::placeholder {
+    font-size: 1rem;
+  }
 }
 header .header__search--container .search__img {
   display: none;
