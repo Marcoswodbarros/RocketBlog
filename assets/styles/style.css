@@ -360,6 +360,12 @@ header .header__search--container button {
     width: 25rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  #main__section--two .two__first--article .first__article--text {
+    row-gap: 1rem;
+    width: 38rem;
+  }
+}
 #main__section--two .two__first--article .first__article--text span {
   align-self: flex-start;
   font-size: 0.75rem;
@@ -368,6 +374,7 @@ header .header__search--container button {
 @media screen and (min-width: 1440px) {
   #main__section--two .two__first--article .first__article--text span {
     font-size: 1rem;
+    margin: 1rem 0;
   }
 }
 #main__section--two .two__first--article .first__article--text h2 {
@@ -389,6 +396,13 @@ header .header__search--container button {
 @media screen and (min-width: 1024px) {
   #main__section--two .two__first--article .first__article--text p {
     text-align: start;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #main__section--two .two__first--article .first__article--text p {
+    font-size: 1rem;
+    line-height: 1.45rem;
+    width: 30rem;
   }
 }
 #main__section--two .st__container {
@@ -458,7 +472,7 @@ header .header__search--container button {
 @media screen and (min-width: 1440px) {
   #main__section--two .st__container .two__second--article p {
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.45rem;
     width: 30rem;
   }
 }
@@ -527,7 +541,7 @@ header .header__search--container button {
 @media screen and (min-width: 1440px) {
   #main__section--two .st__container .two__third--article p {
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.45rem;
     width: 30rem;
   }
 }

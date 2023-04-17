@@ -56,6 +56,11 @@
                 width: 25rem;
             }
 
+            @media screen and (min-width: $laptop-L) {
+                row-gap: 1rem;
+                width: 38rem;
+            }
+
             span {
                 align-self: flex-start;
                 font-size: .75rem;
@@ -63,6 +68,7 @@
 
                 @media screen and (min-width: $laptop-L) {
                     font-size: 1rem;
+                    margin: 1rem 0;
                 }
             }
 
@@ -84,6 +90,12 @@
 
                 @media screen and (min-width: $laptop) {
                     text-align: start;
+                }
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1rem;
+                    line-height: 1.45rem;
+                    width: 30rem;
                 }
             }
         }
@@ -151,7 +163,7 @@
 
                 @media screen and (min-width: $laptop-L) {
                     font-size: 1rem;
-                    line-height: 1.25rem;
+                    line-height: 1.45rem;
                     width: 30rem;
                 }
             }
@@ -216,7 +228,7 @@
 
                 @media screen and (min-width: $laptop-L) {
                     font-size: 1rem;
-                    line-height: 1.25rem;
+                    line-height: 1.45rem;
                     width: 30rem;
                 }
             }
