@@ -337,6 +337,11 @@ header .header__search--container button {
     width: 25rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  #main__section--two .two__first--article .first__article--img {
+    width: 38rem;
+  }
+}
 #main__section--two .two__first--article .first__article--text {
   align-items: center;
   display: flex;
@@ -353,6 +358,11 @@ header .header__search--container button {
   align-self: flex-start;
   font-size: 0.75rem;
   margin: 0.5rem 0;
+}
+@media screen and (min-width: 1440px) {
+  #main__section--two .two__first--article .first__article--text span {
+    font-size: 1rem;
+  }
 }
 #main__section--two .two__first--article .first__article--text h2 {
   color: #290742;
@@ -393,6 +403,11 @@ header .header__search--container button {
 #main__section--two .st__container .two__second--article span {
   align-self: flex-start;
   font-size: 0.75rem;
+}
+@media screen and (min-width: 1440px) {
+  #main__section--two .st__container .two__second--article span {
+    font-size: 1rem;
+  }
 }
 #main__section--two .st__container .two__second--article h2 {
   color: #290742;
@@ -443,6 +458,11 @@ header .header__search--container button {
   #main__section--two .st__container .two__third--article span {
     display: inline-block;
     width: 20rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #main__section--two .st__container .two__third--article span {
+    font-size: 1rem;
   }
 }
 #main__section--two .st__container .two__third--article h2 {

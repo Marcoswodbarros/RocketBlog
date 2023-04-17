@@ -34,6 +34,10 @@
             @media screen and (min-width: $laptop) {
                 width: 25rem;
             }
+
+            @media screen and (min-width: $laptop-L) {
+                width: 38rem;
+            }
         }
 
         .first__article--text {
@@ -51,6 +55,10 @@
                 align-self: flex-start;
                 font-size: .75rem;
                 margin: .5rem 0;
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1rem;
+                }
             }
 
             h2 {
@@ -94,6 +102,10 @@
             span {
                 align-self: flex-start;
                 font-size: .75rem;
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1rem;
+                }
             }
 
             h2 {
@@ -143,6 +155,10 @@
                 @media screen and (min-width: $laptop) {
                     display: inline-block;
                     width: 20rem;
+                }
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1rem;
                 }
             }
 
