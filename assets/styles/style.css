@@ -370,6 +370,11 @@ header .header__search--container button {
   font-weight: 700;
   text-align: center;
 }
+@media screen and (min-width: 1440px) {
+  #main__section--two .two__first--article .first__article--text h2 {
+    font-size: 1.5rem;
+  }
+}
 #main__section--two .two__first--article .first__article--text p {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -421,6 +426,13 @@ header .header__search--container button {
     width: 20rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  #main__section--two .st__container .two__second--article h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 30rem;
+  }
+}
 #main__section--two .st__container .two__second--article p {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -430,6 +442,13 @@ header .header__search--container button {
   #main__section--two .st__container .two__second--article p {
     text-align: start;
     width: 20rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #main__section--two .st__container .two__second--article p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    width: 30rem;
   }
 }
 #main__section--two .st__container .two__third--article {
@@ -477,6 +496,12 @@ header .header__search--container button {
     width: 20rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  #main__section--two .st__container .two__third--article h2 {
+    font-size: 1.5rem;
+    width: 30rem;
+  }
+}
 #main__section--two .st__container .two__third--article p {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -486,6 +511,13 @@ header .header__search--container button {
   #main__section--two .st__container .two__third--article p {
     text-align: start;
     width: 20rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #main__section--two .st__container .two__third--article p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    width: 30rem;
   }
 }
 

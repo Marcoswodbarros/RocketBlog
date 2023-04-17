@@ -66,6 +66,10 @@
                 font-size: 1.2rem;
                 font-weight: 700;
                 text-align: center;
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1.5rem;
+                }
             }
 
             p {
@@ -118,6 +122,12 @@
                     text-align: start;
                     width: 20rem;
                 }
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                    width: 30rem;
+                }
             }
 
             p {
@@ -128,6 +138,12 @@
                 @media screen and (min-width: $laptop) {
                     text-align: start;
                     width: 20rem;
+                }
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1rem;
+                    line-height: 1.25rem;
+                    width: 30rem;
                 }
             }
         }
@@ -172,6 +188,11 @@
                     text-align: start;
                     width: 20rem;
                 }
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1.5rem;
+                    width: 30rem;
+                }
             }
 
             p {
@@ -182,6 +203,12 @@
                 @media screen and (min-width: $laptop) {
                     text-align: start;
                     width: 20rem;
+                }
+
+                @media screen and (min-width: $laptop-L) {
+                    font-size: 1rem;
+                    line-height: 1.25rem;
+                    width: 30rem;
                 }
             }
         }
