@@ -385,6 +385,11 @@ header .header__search--container button {
     width: 60%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #main__section--two .st__container .two__second--article {
+    width: 100%;
+  }
+}
 #main__section--two .st__container .two__second--article span {
   align-self: flex-start;
   font-size: 0.75rem;
@@ -423,6 +428,11 @@ header .header__search--container button {
 @media screen and (min-width: 768px) {
   #main__section--two .st__container .two__third--article {
     width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main__section--two .st__container .two__third--article {
+    width: 100%;
   }
 }
 #main__section--two .st__container .two__third--article span {
