@@ -423,7 +423,7 @@ header .header__search--container button {
   flex-direction: column;
   row-gap: 1.5rem;
 }
-#main__section--two .st__container .two__second--article {
+#main__section--two .st__container .st__container--article {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -433,134 +433,64 @@ header .header__search--container button {
   width: 80%;
 }
 @media screen and (min-width: 768px) {
-  #main__section--two .st__container .two__second--article {
+  #main__section--two .st__container .st__container--article {
     width: 60%;
   }
 }
 @media screen and (min-width: 1024px) {
-  #main__section--two .st__container .two__second--article {
+  #main__section--two .st__container .st__container--article {
+    margin: 0;
     width: 100%;
   }
 }
-#main__section--two .st__container .two__second--article span {
+#main__section--two .st__container .st__container--article span {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  #main__section--two .st__container .two__second--article span {
+  #main__section--two .st__container .st__container--article span {
     align-self: flex-start;
     display: block;
     font-size: 0.7rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  #main__section--two .st__container .two__second--article span {
+  #main__section--two .st__container .st__container--article span {
     font-size: 1rem;
   }
 }
-#main__section--two .st__container .two__second--article h2 {
+#main__section--two .st__container .st__container--article h2 {
   color: #290742;
   font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
 }
 @media screen and (min-width: 1024px) {
-  #main__section--two .st__container .two__second--article h2 {
+  #main__section--two .st__container .st__container--article h2 {
     text-align: start;
     width: 20rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  #main__section--two .st__container .two__second--article h2 {
+  #main__section--two .st__container .st__container--article h2 {
     font-size: 1.5rem;
     line-height: 2rem;
     width: 30rem;
   }
 }
-#main__section--two .st__container .two__second--article p {
+#main__section--two .st__container .st__container--article p {
   font-size: 0.75rem;
   line-height: 1rem;
   text-align: center;
 }
 @media screen and (min-width: 1024px) {
-  #main__section--two .st__container .two__second--article p {
+  #main__section--two .st__container .st__container--article p {
     font-size: 0.7rem;
     text-align: start;
     width: 20rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  #main__section--two .st__container .two__second--article p {
-    font-size: 1rem;
-    line-height: 1.45rem;
-    width: 30rem;
-  }
-}
-#main__section--two .st__container .two__third--article {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-family: "Roboto", sans-serif;
-  row-gap: 0.5rem;
-  width: 80%;
-}
-@media screen and (min-width: 768px) {
-  #main__section--two .st__container .two__third--article {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #main__section--two .st__container .two__third--article {
-    width: 100%;
-  }
-}
-#main__section--two .st__container .two__third--article span {
-  display: none;
-}
-@media screen and (min-width: 1024px) {
-  #main__section--two .st__container .two__third--article span {
-    align-self: flex-start;
-    display: block;
-    font-size: 0.7rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #main__section--two .st__container .two__third--article span {
-    font-size: 1rem;
-  }
-}
-#main__section--two .st__container .two__third--article h2 {
-  color: #290742;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-align: center;
-}
-@media screen and (min-width: 1024px) {
-  #main__section--two .st__container .two__third--article h2 {
-    text-align: start;
-    width: 20rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #main__section--two .st__container .two__third--article h2 {
-    line-height: 2rem;
-    font-size: 1.5rem;
-    width: 30rem;
-  }
-}
-#main__section--two .st__container .two__third--article p {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  text-align: center;
-}
-@media screen and (min-width: 1024px) {
-  #main__section--two .st__container .two__third--article p {
-    font-size: 0.7rem;
-    text-align: start;
-    width: 20rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #main__section--two .st__container .two__third--article p {
+  #main__section--two .st__container .st__container--article p {
     font-size: 1rem;
     line-height: 1.45rem;
     width: 30rem;

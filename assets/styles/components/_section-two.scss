@@ -99,7 +99,7 @@
         @include flexCenterColumn;
         row-gap: 1.5rem;
 
-        .two__second--article {
+        .st__container--article {
             @include flexCenterColumn;
             font-family: $roboto;
             margin: .75rem 0;
@@ -111,6 +111,7 @@
             }
 
             @media screen and (min-width: $laptop) {
+                margin: 0;
                 width: 100%;
             }
 
@@ -139,66 +140,6 @@
                 @media screen and (min-width: $laptop-L) {
                     font-size: 1.5rem;
                     line-height: 2rem;
-                    width: 30rem;
-                }
-            }
-
-            p {
-                @include mobileText;
-
-                @media screen and (min-width: $laptop) {
-                    font-size: .7rem;
-                    text-align: start;
-                    width: 20rem;
-                }
-
-                @media screen and (min-width: $laptop-L) {
-                    font-size: 1rem;
-                    line-height: 1.45rem;
-                    width: 30rem;
-                }
-            }
-        }
-
-        .two__third--article {
-            @include flexCenterColumn;
-            font-family: $roboto;
-            row-gap: .5rem;
-            width: 80%;
-
-            @media screen and (min-width: $tablet) {
-                width: 60%;
-            }
-
-            @media screen and (min-width: $laptop) {
-                width: 100%;
-            }
-
-            span {
-                display: none;
-
-                @media screen and (min-width: $laptop) {
-                    align-self: flex-start;
-                    display: block;
-                    font-size: .7rem;
-                }
-
-                @media screen and (min-width: $laptop-L) {
-                    font-size: 1rem;
-                }
-            }
-
-            h2 {
-                @include mobileSecondTitle;
-
-                @media screen and (min-width: $laptop) {
-                    text-align: start;
-                    width: 20rem;
-                }
-
-                @media screen and (min-width: $laptop-L) {
-                    line-height: 2rem;
-                    font-size: 1.5rem;
                     width: 30rem;
                 }
             }
