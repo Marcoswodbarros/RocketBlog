@@ -171,6 +171,19 @@ header .header__search--container button {
     height: 1.3rem;
   }
 }
+header .header__container--darkMode .fa-sun {
+  color: #fff;
+  position: absolute;
+  top: 1;
+  right: 0.5rem;
+}
+header .header__container--darkMode .fa-moon {
+  color: #fff;
+  display: none;
+  position: absolute;
+  right: 0.5rem;
+  top: 1;
+}
 
 #main__section--intro {
   align-items: center;

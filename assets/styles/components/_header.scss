@@ -161,4 +161,21 @@ header {
             }
         }
     }
+
+    .header__container--darkMode {
+        .fa-sun {
+            color: $color-white;
+            position: absolute;
+            top: 1;
+            right: 0.5rem;
+        }
+
+        .fa-moon {
+            color: $color-white;
+            display: none;
+            position: absolute;
+            right: 0.5rem;
+            top: 1;
+        }
+    }
 }
