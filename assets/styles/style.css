@@ -467,6 +467,11 @@ header .header__container--darkMode .fa-moon {
   line-height: 1rem;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  #main__section--two .two__first--article .first__article--text p {
+    width: 30rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   #main__section--two .two__first--article .first__article--text p {
     text-align: start;
@@ -527,11 +532,15 @@ header .header__container--darkMode .fa-moon {
   font-weight: 700;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  #main__section--two .st__container .st__container--article h2 {
+    width: 20rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   #main__section--two .st__container .st__container--article h2 {
     cursor: pointer;
     text-align: start;
-    width: 20rem;
   }
   #main__section--two .st__container .st__container--article h2:hover {
     text-decoration: underline;
@@ -614,11 +623,12 @@ header .header__container--darkMode .fa-moon {
 #main__section--three #section__three--articles span {
   align-self: flex-start;
   font-size: 0.6rem;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 1.25rem 0;
 }
 @media screen and (min-width: 1024px) {
   #main__section--three #section__three--articles span {
     font-size: 0.7rem;
+    margin: 0.5rem 0;
   }
 }
 @media screen and (min-width: 1440px) {

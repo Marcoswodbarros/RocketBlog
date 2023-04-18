@@ -85,6 +85,10 @@
             p {
                 @include mobileText;
 
+                @media screen and (min-width: $tablet) {
+                    width: 30rem;
+                }
+
                 @media screen and (min-width: $laptop) {
                     text-align: start;
                     font-size: .7rem;
@@ -136,10 +140,13 @@
             h2 {
                 @include mobileSecondTitle;
 
+                @media screen and (min-width: $tablet) {
+                    width: 20rem;
+                }
+
                 @media screen and (min-width: $laptop) {
                     @include underlineHoverEffect;
                     text-align: start;
-                    width: 20rem;
                 }
 
                 @media screen and (min-width: $laptop-L) {

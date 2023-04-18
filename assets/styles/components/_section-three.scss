@@ -39,10 +39,11 @@
         span {
             align-self: flex-start;
             font-size: .6rem;
-            margin: .5rem 0;
+            margin: .5rem 0 1.25rem 0;
 
             @media screen and (min-width: $laptop) {
                 font-size: .7rem;
+                margin: .5rem 0;
             }
 
             @media screen and (min-width: $laptop-L) {
