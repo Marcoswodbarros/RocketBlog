@@ -171,18 +171,32 @@ header .header__search--container button {
     height: 1.3rem;
   }
 }
-header .header__container--darkMode .fa-sun {
+header .header__container--darkMode .fa-icons {
   color: #fff;
   position: absolute;
   top: 1;
   right: 0.5rem;
 }
+@media screen and (min-width: 768px) {
+  header .header__container--darkMode .fa-icons {
+    top: 0.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .header__container--darkMode .fa-icons {
+    right: 0.75rem;
+    top: 0.75rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header .header__container--darkMode .fa-icons {
+    font-size: 1.3rem;
+    right: 1rem;
+    top: 1rem;
+  }
+}
 header .header__container--darkMode .fa-moon {
-  color: #fff;
   display: none;
-  position: absolute;
-  right: 0.5rem;
-  top: 1;
 }
 
 #main__section--intro {

@@ -1,3 +1,10 @@
+@mixin iconsStyle {
+    color: $color-white;
+    position: absolute;
+    top: 1;
+    right: 0.5rem;
+}
+
 @mixin flexCenterColumn {
     align-items: center;
     display: flex;
