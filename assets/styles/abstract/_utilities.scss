@@ -3,3 +3,18 @@
     display: flex;
     flex-direction: column;
 }
+
+
+@mixin mobileSecondTitle {
+    color: $color-purple-bg;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+@mixin mobileText {
+    font-size: .75rem;
+    line-height: 1rem;
+    text-align: center;
+}

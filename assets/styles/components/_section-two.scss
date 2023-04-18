@@ -71,10 +71,7 @@
             }
 
             h2 {
-                color: $color-purple-bg;
-                font-size: 1.2rem;
-                font-weight: 700;
-                text-align: center;
+                @include mobileSecondTitle;
 
                 @media screen and (min-width: $laptop-L) {
                     font-size: 1.5rem;
@@ -82,9 +79,7 @@
             }
 
             p {
-                font-size: .75rem;
-                line-height: 1rem;
-                text-align: center;
+                @include mobileText;
 
                 @media screen and (min-width: $laptop) {
                     text-align: start;
@@ -134,10 +129,7 @@
             }
 
             h2 {
-                color: $color-purple-bg;
-                font-size: 1.2rem;
-                font-weight: 700;
-                text-align: center;
+                @include mobileSecondTitle;
 
                 @media screen and (min-width: $laptop) {
                     text-align: start;
@@ -152,9 +144,7 @@
             }
 
             p {
-                font-size: .75rem;
-                line-height: 1rem;
-                text-align: center;
+                @include mobileText;
 
                 @media screen and (min-width: $laptop) {
                     font-size: .7rem;
@@ -199,10 +189,7 @@
             }
 
             h2 {
-                color: $color-purple-bg;
-                font-size: 1.2rem;
-                font-weight: 700;
-                text-align: center;
+                @include mobileSecondTitle;
 
                 @media screen and (min-width: $laptop) {
                     text-align: start;
@@ -217,9 +204,7 @@
             }
 
             p {
-                font-size: .75rem;
-                line-height: 1rem;
-                text-align: center;
+                @include mobileText;
 
                 @media screen and (min-width: $laptop) {
                     font-size: .7rem;

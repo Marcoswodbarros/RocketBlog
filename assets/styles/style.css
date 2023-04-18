@@ -650,8 +650,8 @@ header .header__search--container button {
 #main__section--three #section__three--articles p {
   font-size: 0.75rem;
   line-height: 1rem;
-  margin-top: 0.5rem;
   text-align: center;
+  margin-top: 0.5rem;
 }
 @media screen and (min-width: 768px) {
   #main__section--three #section__three--articles p {
