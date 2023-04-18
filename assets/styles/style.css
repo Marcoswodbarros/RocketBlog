@@ -606,8 +606,12 @@ header .header__search--container button {
 }
 @media screen and (min-width: 1024px) {
   #main__section--three #section__three--articles h2 {
+    cursor: pointer;
     text-align: start;
     font-size: 0.95rem;
+  }
+  #main__section--three #section__three--articles h2:hover {
+    text-decoration: underline;
   }
 }
 @media screen and (min-width: 1440px) {

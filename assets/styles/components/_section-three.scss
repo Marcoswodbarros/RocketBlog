@@ -54,6 +54,7 @@
             @include mobileSecondTitle;
 
             @media screen and (min-width: $laptop) {
+                @include underlineHoverEffect;
                 text-align: start;
                 font-size: .95rem;
             }
