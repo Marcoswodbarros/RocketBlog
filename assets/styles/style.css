@@ -421,6 +421,14 @@ header .header__search--container button {
   font-weight: 700;
   text-align: center;
 }
+@media screen and (min-width: 1024px) {
+  #main__section--two .two__first--article .first__article--text h2 {
+    cursor: pointer;
+  }
+  #main__section--two .two__first--article .first__article--text h2:hover {
+    text-decoration: underline;
+  }
+}
 @media screen and (min-width: 1440px) {
   #main__section--two .two__first--article .first__article--text h2 {
     font-size: 1.5rem;
@@ -493,8 +501,12 @@ header .header__search--container button {
 }
 @media screen and (min-width: 1024px) {
   #main__section--two .st__container .st__container--article h2 {
+    cursor: pointer;
     text-align: start;
     width: 20rem;
+  }
+  #main__section--two .st__container .st__container--article h2:hover {
+    text-decoration: underline;
   }
 }
 @media screen and (min-width: 1440px) {

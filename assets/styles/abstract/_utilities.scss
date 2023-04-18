@@ -18,3 +18,12 @@
     line-height: 1rem;
     text-align: center;
 }
+
+
+@mixin underlineHoverEffect {
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

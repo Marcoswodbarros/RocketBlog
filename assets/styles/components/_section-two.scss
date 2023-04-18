@@ -73,6 +73,10 @@
             h2 {
                 @include mobileSecondTitle;
 
+                @media screen and (min-width: $laptop) {
+                    @include underlineHoverEffect;
+                }
+
                 @media screen and (min-width: $laptop-L) {
                     font-size: 1.5rem;
                 }
@@ -133,6 +137,7 @@
                 @include mobileSecondTitle;
 
                 @media screen and (min-width: $laptop) {
+                    @include underlineHoverEffect;
                     text-align: start;
                     width: 20rem;
                 }
