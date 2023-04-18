@@ -675,6 +675,11 @@ header .header__search--container button {
 #main__section--three #section__three--articles .three__article--text {
   margin-bottom: 2rem;
 }
+@media screen and (min-width: 768px) {
+  #main__section--three #section__three--articles .three__article--text {
+    margin-bottom: 4rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   #main__section--three #section__three--articles .three__article--text {
     margin-bottom: 0;

@@ -88,6 +88,10 @@
         .three__article--text {
             margin-bottom: 2rem;
 
+            @media screen and (min-width: $tablet) {
+                margin-bottom: 4rem;
+            }
+
             @media screen and (min-width: $laptop) {
                 margin-bottom: 0;
             }
