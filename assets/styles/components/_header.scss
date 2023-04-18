@@ -77,8 +77,8 @@ header {
         position: relative;
 
         @media screen and (min-width: $laptop) {
-            display: flex;
             align-items: center;
+            display: flex;
         }
 
         #search {

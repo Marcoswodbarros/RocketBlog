@@ -78,8 +78,8 @@ header .header__search--container {
 }
 @media screen and (min-width: 1024px) {
   header .header__search--container {
-    display: flex;
     align-items: center;
+    display: flex;
   }
 }
 header .header__search--container #search {
@@ -173,6 +173,7 @@ header .header__search--container button {
 }
 header .header__container--darkMode .fa-icons {
   color: #fff;
+  cursor: pointer;
   position: absolute;
   top: 1;
   right: 0.5rem;

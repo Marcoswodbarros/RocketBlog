@@ -1,5 +1,6 @@
 @mixin iconsStyle {
     color: $color-white;
+    cursor: pointer;
     position: absolute;
     top: 1;
     right: 0.5rem;
