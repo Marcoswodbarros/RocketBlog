@@ -401,7 +401,7 @@ header .header__search--container button {
 }
 #main__section--two .two__first--article .first__article--text span {
   align-self: flex-start;
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   margin: 0.5rem 0;
 }
 @media screen and (min-width: 1024px) {
@@ -585,7 +585,7 @@ header .header__search--container button {
 }
 #main__section--three #section__three--articles span {
   align-self: flex-start;
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   margin: 0.5rem 0;
 }
 @media screen and (min-width: 1024px) {
