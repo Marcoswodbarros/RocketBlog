@@ -55,6 +55,23 @@ header nav {
     font-size: 1.3rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  header nav ul li::after {
+    content: " ";
+    display: block;
+    height: 3px;
+    margin: auto;
+    transition: width 0.5s ease;
+    width: 0px;
+  }
+  header nav ul li:hover {
+    cursor: pointer;
+  }
+  header nav ul li:hover:hover::after {
+    background-color: #fbf6ff;
+    width: 100%;
+  }
+}
 header .header__search--container {
   position: relative;
 }

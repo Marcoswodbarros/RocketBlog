@@ -47,6 +47,28 @@ header {
                 column-gap: 2.5rem;
                 font-size: 1.3rem;
             }
+
+            li {
+                @media screen and (min-width:$laptop) {
+                    &::after {
+                        content: " ";
+                        display: block;
+                        height: 3px;
+                        margin: auto;
+                        transition: width .5s ease;
+                        width: 0px;
+                    }
+    
+                    &:hover {
+                        cursor: pointer;
+    
+                        &:hover::after {
+                            background-color: $color-light-purple;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
         }
     }
 
