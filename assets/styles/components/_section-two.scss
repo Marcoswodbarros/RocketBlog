@@ -1,7 +1,5 @@
 #main__section--two {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    @include flexCenterColumn;
     margin-top: 2rem;
     row-gap: 1.5rem;
 
@@ -15,9 +13,7 @@
     }
 
     .two__first--article {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
+        @include flexCenterColumn;
         font-family: $roboto;
 
         @media screen and (min-width: $laptop) {
@@ -41,9 +37,7 @@
         }
 
         .first__article--text {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
+            @include flexCenterColumn;
             row-gap: .5rem;
             width: 80%;
 
@@ -107,15 +101,11 @@
     }
 
     .st__container {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
+        @include flexCenterColumn;
         row-gap: 1.5rem;
 
         .two__second--article {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
+            @include flexCenterColumn;
             font-family: $roboto;
             margin: .75rem 0;
             row-gap: .5rem;
@@ -181,9 +171,7 @@
         }
 
         .two__third--article {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
+            @include flexCenterColumn;
             font-family: $roboto;
             row-gap: .5rem;
             width: 80%;

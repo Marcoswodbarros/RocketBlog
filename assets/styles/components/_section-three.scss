@@ -1,7 +1,5 @@
 #main__section--three {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    @include flexCenterColumn;
     margin-top: 4rem;
     row-gap: 2rem;
 
@@ -17,9 +15,7 @@
     }
 
     #section__three--articles {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
+        @include flexCenterColumn;
         font-family: $roboto;
         width: 80%;
 
