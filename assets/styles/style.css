@@ -564,29 +564,30 @@ header .header__search--container button {
   display: flex;
   flex-direction: column;
   margin-top: 4rem;
+  row-gap: 2rem;
 }
-#main__section--three article {
+#main__section--three #section__three--articles {
   align-items: center;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   width: 80%;
 }
-#main__section--three article .three__picture--first {
+#main__section--three #section__three--articles .three__article--picture {
   width: 100%;
 }
-#main__section--three article span {
+#main__section--three #section__three--articles span {
   align-self: flex-start;
   font-size: 0.75rem;
   margin: 0.5rem 0;
 }
-#main__section--three article h2 {
+#main__section--three #section__three--articles h2 {
   color: #290742;
   font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
 }
-#main__section--three article p {
+#main__section--three #section__three--articles p {
   font-size: 0.75rem;
   line-height: 1rem;
   margin-top: 0.5rem;

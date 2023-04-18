@@ -3,15 +3,16 @@
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
+    row-gap: 2rem;
 
-    article {
+    #section__three--articles {
         align-items: center;
         display: flex;
         flex-direction: column;
         font-family: $roboto;
         width: 80%;
 
-        .three__picture--first {
+        .three__article--picture {
             width: 100%;
         }
 
