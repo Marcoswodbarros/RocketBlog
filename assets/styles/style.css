@@ -566,12 +566,22 @@ header .header__search--container button {
   margin-top: 4rem;
   row-gap: 2rem;
 }
+@media screen and (min-width: 768px) {
+  #main__section--three {
+    row-gap: 4rem;
+  }
+}
 #main__section--three #section__three--articles {
   align-items: center;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   width: 80%;
+}
+@media screen and (min-width: 768px) {
+  #main__section--three #section__three--articles {
+    width: 60%;
+  }
 }
 #main__section--three #section__three--articles .three__article--picture {
   width: 100%;
@@ -592,6 +602,14 @@ header .header__search--container button {
   line-height: 1rem;
   margin-top: 0.5rem;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  #main__section--three #section__three--articles p {
+    width: 25rem;
+  }
+}
+#main__section--three #section__three--articles .three__article--text {
+  margin-bottom: 2rem;
 }
 
 * {

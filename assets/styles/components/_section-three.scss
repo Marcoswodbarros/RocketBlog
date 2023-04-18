@@ -5,12 +5,20 @@
     margin-top: 4rem;
     row-gap: 2rem;
 
+    @media screen and (min-width: $tablet) {
+        row-gap: 4rem;
+    }
+
     #section__three--articles {
         align-items: center;
         display: flex;
         flex-direction: column;
         font-family: $roboto;
         width: 80%;
+
+        @media screen and (min-width: $tablet) {
+            width: 60%;
+        }
 
         .three__article--picture {
             width: 100%;
@@ -34,6 +42,14 @@
             line-height: 1rem;
             margin-top: .5rem;
             text-align: center;
+
+            @media screen and (min-width: $tablet) {
+                width: 25rem;
+            }
+        }
+
+        .three__article--text {
+            margin-bottom: 2rem;
         }
     }
 }
