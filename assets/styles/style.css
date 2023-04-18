@@ -278,7 +278,7 @@ header .header__container--darkMode .fa-moon {
 @media screen and (min-width: 768px) {
   #main__section--intro .intro__text--container h1 {
     padding: 0;
-    width: 55%;
+    width: 26rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -310,7 +310,8 @@ header .header__container--darkMode .fa-moon {
 }
 @media screen and (min-width: 768px) {
   #main__section--intro .intro__text--container p {
-    width: 60%;
+    text-align: center;
+    width: 26rem;
   }
 }
 @media screen and (min-width: 1024px) {

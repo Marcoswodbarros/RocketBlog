@@ -66,7 +66,7 @@
 
             @media screen and (min-width: $tablet) {
                 padding: 0;
-                width: 55%;
+                width: 26rem;
             }
 
             @media screen and (min-width: $laptop) {
@@ -97,7 +97,8 @@
             text-align: justify;
 
             @media screen and (min-width: $tablet) {
-                width: 60%;
+                text-align: center;
+                width: 26rem;
             }
 
             @media screen and (min-width: $laptop) {
