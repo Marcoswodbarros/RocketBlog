@@ -15,9 +15,11 @@
     .two__first--article {
         @include flexCenterColumn;
         font-family: $roboto;
+        max-width: 25rem;
 
         @media screen and (min-width: $laptop) {
             width: 60vw;
+            max-width: none;
         }
 
         .first__article--img {
@@ -111,6 +113,7 @@
             @include flexCenterColumn;
             font-family: $roboto;
             margin: .75rem 0;
+            max-width: 25rem;
             row-gap: .5rem;
             width: 80%;
 
@@ -120,6 +123,7 @@
 
             @media screen and (min-width: $laptop) {
                 margin: 0;
+                max-width: none;
                 width: 100%;
             }
 

@@ -18,6 +18,7 @@
         @include flexCenterColumn;
         font-family: $roboto;
         width: 80%;
+        max-width: 25rem;
 
         @media screen and (min-width: $tablet) {
             width: 60%;

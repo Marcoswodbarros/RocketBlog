@@ -258,6 +258,7 @@ header .header__container--darkMode .fa-moon {
   gap: 0.5rem;
   margin-top: 1rem;
   padding-bottom: 1rem;
+  max-width: 25rem;
 }
 @media screen and (min-width: 1024px) {
   #main__section--intro .intro__text--container {
@@ -306,11 +307,10 @@ header .header__container--darkMode .fa-moon {
   font-size: 0.8rem;
   line-height: 1.2rem;
   padding: 0 1rem;
-  text-align: justify;
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
   #main__section--intro .intro__text--container p {
-    text-align: center;
     width: 26rem;
   }
 }
@@ -380,10 +380,12 @@ header .header__container--darkMode .fa-moon {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
+  max-width: 25rem;
 }
 @media screen and (min-width: 1024px) {
   #main__section--two .two__first--article {
     width: 60vw;
+    max-width: none;
   }
 }
 #main__section--two .two__first--article .first__article--img {
@@ -498,6 +500,7 @@ header .header__container--darkMode .fa-moon {
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   margin: 0.75rem 0;
+  max-width: 25rem;
   row-gap: 0.5rem;
   width: 80%;
 }
@@ -509,6 +512,7 @@ header .header__container--darkMode .fa-moon {
 @media screen and (min-width: 1024px) {
   #main__section--two .st__container .st__container--article {
     margin: 0;
+    max-width: none;
     width: 100%;
   }
 }
@@ -601,6 +605,7 @@ header .header__container--darkMode .fa-moon {
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   width: 80%;
+  max-width: 25rem;
 }
 @media screen and (min-width: 768px) {
   #main__section--three #section__three--articles {

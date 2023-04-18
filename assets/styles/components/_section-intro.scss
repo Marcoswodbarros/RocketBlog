@@ -48,6 +48,7 @@
         gap: .5rem;
         margin-top: 1rem;
         padding-bottom: 1rem;
+        max-width: 25rem;
 
         @media screen and (min-width: $laptop) {
             margin: 0;
@@ -94,10 +95,9 @@
             font-size: .8rem;
             line-height: 1.2rem;
             padding: 0 1rem;
-            text-align: justify;
+            text-align: center;
 
             @media screen and (min-width: $tablet) {
-                text-align: center;
                 width: 26rem;
             }
 
