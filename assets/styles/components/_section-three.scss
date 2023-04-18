@@ -32,6 +32,10 @@
             width: 15.5rem;
         }
 
+        @media screen and (min-width: $laptop-L) {
+            width: 23.5rem;
+        }
+
         .three__article--picture {
             width: 100%;
         }
@@ -44,6 +48,10 @@
             @media screen and (min-width: $laptop) {
                 font-size: .7rem;
             }
+
+            @media screen and (min-width: $laptop-L) {
+                font-size: 1rem;
+            }
         }
 
         h2 {
@@ -55,6 +63,11 @@
             @media screen and (min-width: $laptop) {
                 text-align: start;
                 font-size: .95rem;
+            }
+
+            @media screen and (min-width: $laptop-L) {
+                font-size: 1.45rem;
+                line-height: 2rem;
             }
         }
 
@@ -72,6 +85,12 @@
                 font-size: .65rem;
                 text-align: start;
                 width: 15.5rem;
+            }
+
+            @media screen and (min-width: $laptop-L) {
+                font-size: 1rem;
+                line-height: 1.45rem;
+                width: 23.5rem;
             }
         }
 
