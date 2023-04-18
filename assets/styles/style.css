@@ -559,6 +559,10 @@ header .header__search--container button {
   }
 }
 
+#main__section--three article .three__picture--first {
+  width: 80%;
+}
+
 * {
   box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
