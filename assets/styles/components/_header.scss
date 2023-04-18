@@ -19,6 +19,7 @@ header {
         margin: .5rem 0;
 
         @media screen and (min-width: $laptop) {
+            cursor: pointer;
             height: 2rem;
             margin: 0;
         }
@@ -126,7 +127,7 @@ header {
                 position: absolute;
                 top: .3rem;
             }
-
+            
             @media screen and (min-width: $laptop) {
                 display: none;
             }
@@ -140,6 +141,7 @@ header {
                 border: none;
                 border-bottom-right-radius: .3rem;
                 border-top-right-radius: .3rem;
+                cursor: pointer;
                 display: block;
                 height: 2rem;
                 width: 3rem;
