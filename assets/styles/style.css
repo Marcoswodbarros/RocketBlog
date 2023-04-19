@@ -472,7 +472,7 @@ header .header__container--darkMode .fa-moon {
 }
 @media screen and (min-width: 768px) {
   #main__section--two .two__first--article .first__article--text p {
-    width: 30rem;
+    width: 20rem;
   }
 }
 @media screen and (min-width: 1024px) {
